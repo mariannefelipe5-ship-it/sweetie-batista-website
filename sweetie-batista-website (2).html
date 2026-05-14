@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweetie Batista | REALTOR® & Author — South Florida</title>
+<meta name="description" content="Sweetie Batista — REALTOR® & Author. The Sweetie Batista Group at Grant & Associates Real Estate Inc. South Florida's trusted real estate expert. Buyer, Seller & Investment specialist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FDFCF8;
+  --cream-deep: #F4EDE0;
+  --cream-ivory: #FAF6EE;
+  --cream-warm: #FAF8F2;
+  --gold: #D4AF37;
+  --gold-light: rgba(212,175,55,0.12);
+  --gold-pale: rgba(212,175,55,0.06);
+  --charcoal: #1A1612;
+  --charcoal-mid: #2C2520;
+  --charcoal-soft: #3D3530;
+  --brown-muted: #8B7355;
+  --tan: #C8B89A;
+  --tan-light: #E4D8C0;
+  --white: #FFFFFF;
+  --near-black: #07090E;
+  --teal: #2D6A4F;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', sans-serif;
+  --nav-h: 80px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font-sans);background:var(--cream);color:var(--charcoal);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:var(--font-sans)}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--charcoal)}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px}
+
+/* ─── HELPERS ─── */
+.eyebrow{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.gold-line{display:block;width:48px;height:2px;background:var(--gold);margin:12px 0 20px}
+.gold-line.center{margin:12px auto 20px}
+.gold-line.wide{width:80px}
+.btn-gold{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;background:var(--gold);color:var(--charcoal);font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:none;transition:background .25s,transform .18s;white-space:nowrap}
+.btn-gold:hover{background:#b8962f;transform:translateY(-1px)}
+.btn-charcoal{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;background:var(--charcoal);color:var(--cream);font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:none;transition:background .25s,transform .18s;white-space:nowrap}
+.btn-charcoal:hover{background:var(--charcoal-mid);transform:translateY(-1px)}
+.btn-outline{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;background:transparent;color:var(--charcoal);font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:1.5px solid var(--charcoal);transition:all .25s;white-space:nowrap}
+.btn-outline:hover{background:var(--charcoal);color:var(--cream)}
+.btn-outline-cream{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;background:transparent;color:var(--cream);font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:1.5px solid rgba(253,252,248,.35);transition:all .25s;white-space:nowrap}
+.btn-outline-cream:hover{background:rgba(253,252,248,.1);border-color:var(--cream)}
+section{position:relative}
+
+/* ═══════════════════════════════════════════
+   1. NAVIGATION
+═══════════════════════════════════════════ */
+#navbar{
+  position:fixed;top:0;left:0;right:0;z-index:999;
+  height:var(--nav-h);
+  background:var(--cream);
+  border-bottom:1px solid var(--tan-light);
+  display:flex;align-items:center;
+  padding:0 40px;
+  gap:0;
+}
+.nav-left{display:flex;align-items:center;gap:0;flex-shrink:0}
+.nav-logo-grant{
+  height:56px;display:flex;align-items:center;
+  font-family:var(--font-serif);font-size:15px;font-weight:600;
+  color:var(--charcoal);letter-spacing:.04em;line-height:1.25;
+  padding-right:18px;
+}
+.nav-logo-grant .grant-logo-img{height:52px;width:auto}
+.nav-divider{width:1px;height:36px;background:var(--tan-light);flex-shrink:0}
+.nav-sb{display:flex;align-items:center;padding-left:18px}
+.nav-sb .sb-logo-img{height:36px;width:auto}
+.nav-center{flex:1;display:flex;justify-content:center;align-items:center;gap:32px}
+.nav-link{
+  font-family:var(--font-sans);font-size:11.5px;font-weight:500;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--charcoal);
+  position:relative;padding-bottom:3px;transition:color .2s;
+}
+.nav-link::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1.5px;
+  background:var(--gold);transform:scaleX(0);transform-origin:left;
+  transition:transform .25s;
+}
+.nav-link:hover{color:var(--gold)}
+.nav-link:hover::after{transform:scaleX(1)}
+.nav-right{display:flex;align-items:center;gap:16px;flex-shrink:0}
+.nav-phone{
+  font-family:var(--font-sans);font-size:13px;font-weight:600;
+  color:var(--gold);letter-spacing:.04em;transition:opacity .2s;
+}
+.nav-phone:hover{opacity:.8}
+.nav-cta{
+  padding:10px 22px;background:var(--charcoal);color:var(--cream);
+  font-family:var(--font-sans);font-size:11px;font-weight:600;
+  letter-spacing:.15em;text-transform:uppercase;border:none;
+  transition:background .2s;cursor:pointer;
+}
+.nav-cta:hover{background:var(--charcoal-mid)}
+
+/* Hamburger (mobile) */
+.nav-hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+.nav-hamburger span{display:block;width:24px;height:2px;background:var(--charcoal);transition:all .3s}
+.nav-mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:var(--cream);border-bottom:1px solid var(--tan-light);padding:24px 40px;flex-direction:column;gap:20px;z-index:998}
+.nav-mobile-menu.open{display:flex}
+.nav-mobile-menu a{font-family:var(--font-sans);font-size:13px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--charcoal);padding-bottom:12px;border-bottom:1px solid var(--tan-light)}
+
+/* ═══════════════════════════════════════════
+   2. HERO
+═══════════════════════════════════════════ */
+#hero{
+  min-height:100vh;display:grid;grid-template-columns:1fr 1fr;
+  padding-top:var(--nav-h);
+}
+.hero-left{
+  background:var(--cream);
+  background-image:radial-gradient(ellipse at 20% 40%, rgba(212,175,55,0.08) 0%, transparent 65%);
+  display:flex;flex-direction:column;justify-content:center;
+  padding:80px 64px 60px 60px;
+  position:relative;
+}
+.hero-eyebrow{
+  font-family:var(--font-sans);font-size:10px;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;color:var(--gold);
+  margin-bottom:22px;line-height:1.8;
+}
+.hero-headline{
+  font-family:var(--font-serif);font-size:clamp(48px,5.5vw,74px);
+  font-weight:600;line-height:1.1;color:var(--charcoal);
+  margin-bottom:28px;
+}
+.hero-headline em{color:var(--gold);font-style:italic}
+.hero-sub{
+  font-family:var(--font-sans);font-size:15.5px;font-weight:300;
+  line-height:1.75;color:var(--charcoal-soft);
+  max-width:480px;margin-bottom:40px;
+}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:52px}
+.hero-divider{width:100%;height:1px;background:linear-gradient(90deg,var(--gold) 0%,rgba(212,175,55,0.15) 100%);margin-bottom:36px}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.hero-stat{padding:0 24px 0 0;position:relative}
+.hero-stat+.hero-stat::before{
+  content:'';position:absolute;left:0;top:6px;bottom:6px;
+  width:1px;background:var(--tan-light);
+}
+.hero-stat+.hero-stat{padding-left:24px}
+.stat-number{
+  font-family:var(--font-serif);font-size:38px;font-weight:600;
+  color:var(--gold);line-height:1;margin-bottom:4px;
+}
+.stat-label{
+  font-family:var(--font-sans);font-size:10.5px;font-weight:500;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--brown-muted);
+}
+.hero-right{
+  background:var(--cream-deep);
+  position:relative;overflow:hidden;
+  display:flex;align-items:flex-start;justify-content:center;
+}
+.hero-photo{
+  width:100%;height:100%;object-fit:cover;object-position:center top;
+  display:block;
+}
+.hero-photo-placeholder{
+  width:100%;height:100%;min-height:600px;
+  background:linear-gradient(160deg,#c8a87a 0%,#8B6845 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:16px;color:rgba(255,255,255,0.7);font-family:var(--font-sans);
+}
+.hero-photo-placeholder .ph-icon{font-size:64px;opacity:.5}
+.hero-photo-placeholder .ph-text{font-size:13px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;opacity:.6}
+.hero-badge{
+  position:absolute;bottom:28px;left:50%;transform:translateX(-50%);
+  background:rgba(255,255,255,0.92);backdrop-filter:blur(8px);
+  border-radius:40px;padding:10px 20px;
+  display:flex;align-items:center;gap:10px;
+  border:1px solid rgba(212,175,55,0.3);
+  white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,0.12);
+}
+.hero-badge .badge-stars{color:var(--gold);font-size:14px;letter-spacing:1px}
+.hero-badge .badge-text{font-family:var(--font-sans);font-size:11.5px;font-weight:600;color:var(--charcoal);letter-spacing:.04em}
+
+/* ═══════════════════════════════════════════
+   3. TICKER
+═══════════════════════════════════════════ */
+#ticker{
+  background:#1A1612;
+  border-top:3px solid var(--gold);
+  padding:18px 0;overflow:hidden;position:relative;
+}
+.ticker-inner{display:flex;gap:0;width:max-content;animation:ticker-scroll 38s linear infinite}
+.ticker-inner:hover{animation-play-state:paused}
+.ticker-set{display:flex;align-items:center;gap:0;white-space:nowrap;padding-right:0}
+.ticker-city{
+  font-family:var(--font-sans);font-size:11px;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--gold);
+  padding:0 28px;
+}
+.ticker-dot{color:rgba(212,175,55,0.4);font-size:8px}
+@keyframes ticker-scroll{
+  0%{transform:translateX(0)}
+  100%{transform:translateX(-50%)}
+}
+
+/* ═══════════════════════════════════════════
+   4. PROPERTY SEARCH
+═══════════════════════════════════════════ */
+#search{background:var(--white);padding:56px 60px}
+.search-label{margin-bottom:16px}
+.search-bar{
+  display:grid;
+  grid-template-columns:1fr 180px 200px 140px auto;
+  gap:0;border:1.5px solid var(--tan-light);
+  overflow:hidden;
+}
+.search-bar input,.search-bar select{
+  padding:16px 20px;border:none;outline:none;
+  font-family:var(--font-sans);font-size:13.5px;color:var(--charcoal);
+  background:var(--white);
+  border-right:1px solid var(--tan-light);
+  -webkit-appearance:none;appearance:none;
+}
+.search-bar select{cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238B7355' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:calc(100% - 14px) center;padding-right:34px}
+.search-bar input::placeholder{color:var(--tan)}
+.search-btn{
+  padding:0 36px;background:var(--charcoal);color:var(--cream);
+  font-family:var(--font-sans);font-size:12px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;border:none;
+  cursor:pointer;white-space:nowrap;transition:background .2s;
+}
+.search-btn:hover{background:var(--charcoal-mid)}
+
+/* ═══════════════════════════════════════════
+   5. FEATURED LISTINGS
+═══════════════════════════════════════════ */
+#listings{background:var(--cream);padding:100px 60px 80px}
+.section-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:52px}
+.section-header-left{}
+.mls-link{
+  font-family:var(--font-sans);font-size:12px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--gold);
+  border-bottom:1px solid var(--gold);padding-bottom:2px;
+  transition:opacity .2s;align-self:flex-end;
+}
+.mls-link:hover{opacity:.7}
+.section-title{font-family:var(--font-serif);font-size:clamp(34px,4vw,52px);font-weight:600;color:var(--charcoal);line-height:1.1}
+.section-title em{color:var(--gold);font-style:italic}
+.cards-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.prop-card{
+  background:var(--white);border:1px solid var(--tan-light);
+  overflow:hidden;transition:transform .28s,box-shadow .28s;
+}
+.prop-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(26,22,18,0.12)}
+.prop-img{position:relative;height:220px;overflow:hidden;background:var(--cream-deep)}
+.prop-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.prop-card:hover .prop-img img{transform:scale(1.04)}
+.prop-img-placeholder{
+  width:100%;height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:8px;
+}
+.ph-icon-sm{font-size:36px;opacity:.35}
+.prop-badge{
+  position:absolute;top:14px;left:14px;
+  font-family:var(--font-sans);font-size:10px;font-weight:700;
+  letter-spacing:.15em;text-transform:uppercase;
+  color:#fff;padding:5px 12px;
+}
+.badge-sale{background:var(--teal)}
+.badge-new{background:var(--gold);color:var(--charcoal)}
+.badge-inv{background:var(--charcoal)}
+.badge-sold-stamp{
+  position:absolute;top:12px;left:12px;
+  background:var(--gold);color:var(--charcoal);
+  font-family:var(--font-sans);font-size:10px;font-weight:800;
+  letter-spacing:.2em;text-transform:uppercase;
+  padding:5px 14px;
+}
+.badge-role{
+  position:absolute;top:12px;right:12px;
+  font-family:var(--font-sans);font-size:10px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 10px;color:#fff;
+}
+.badge-role.buyer{background:var(--teal)}
+.badge-role.seller{background:var(--charcoal)}
+.prop-info{padding:24px}
+.prop-price{font-family:var(--font-serif);font-size:28px;font-weight:600;color:var(--charcoal);margin-bottom:4px}
+.prop-addr{font-family:var(--font-sans);font-size:12px;color:var(--brown-muted);margin-bottom:14px;letter-spacing:.02em}
+.prop-specs{
+  display:flex;gap:16px;font-family:var(--font-sans);font-size:12px;
+  color:var(--brown-muted);margin-bottom:18px;
+  border-top:1px solid var(--tan-light);padding-top:14px;
+}
+.prop-spec{display:flex;align-items:center;gap:5px}
+.prop-spec span{font-weight:600;color:var(--charcoal)}
+.tour-btn{
+  display:block;width:100%;padding:11px;text-align:center;
+  background:transparent;border:1.5px solid var(--charcoal);
+  font-family:var(--font-sans);font-size:11px;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--charcoal);
+  transition:all .2s;cursor:pointer;
+}
+.tour-btn:hover{background:var(--charcoal);color:var(--cream)}
+.listings-cta{text-align:center;margin-top:52px}
+.listings-caption{
+  text-align:center;font-family:var(--font-sans);font-size:11.5px;
+  color:var(--brown-muted);margin-top:20px;font-style:italic;
+  max-width:560px;margin-left:auto;margin-right:auto;line-height:1.6;
+}
+
+/* ═══════════════════════════════════════════
+   6. ABOUT
+═══════════════════════════════════════════ */
+#about{background:var(--cream-ivory);padding:100px 60px}
+.about-grid{display:grid;grid-template-columns:420px 1fr;gap:80px;align-items:start}
+.about-photo-wrap{position:relative;max-width:420px}
+.about-portrait{
+  width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;
+  display:block;
+}
+.about-portrait-placeholder{
+  width:100%;aspect-ratio:4/5;
+  background:linear-gradient(160deg,#c8a87a 0%,#6B4F35 100%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:12px;color:rgba(255,255,255,0.65);
+}
+.about-gold-line{
+  position:absolute;bottom:-14px;right:-14px;
+  width:60%;height:3px;background:var(--gold);
+}
+.about-sb-badge{
+  position:absolute;top:-14px;left:-14px;
+  width:52px;height:52px;background:var(--white);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 2px 16px rgba(0,0,0,0.1);
+  font-family:var(--font-serif);font-size:18px;font-weight:700;color:var(--gold);
+}
+.about-rating-badge{
+  position:absolute;bottom:28px;left:-20px;
+  background:var(--gold);padding:12px 18px;
+  font-family:var(--font-serif);font-size:18px;font-weight:700;color:var(--charcoal);
+  box-shadow:0 4px 20px rgba(0,0,0,0.15);line-height:1;
+}
+.about-rating-badge small{font-family:var(--font-sans);font-size:10px;font-weight:600;letter-spacing:.1em;display:block;margin-top:2px}
+.about-content{padding-top:8px}
+.about-headline{
+  font-family:var(--font-serif);font-size:clamp(28px,3vw,40px);
+  font-weight:600;color:var(--charcoal);margin-bottom:24px;line-height:1.2;
+}
+.about-bio{
+  font-family:var(--font-sans);font-size:14.5px;line-height:1.82;
+  color:var(--charcoal-soft);margin-bottom:18px;
+}
+.about-tags{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}
+.about-tag{
+  padding:7px 14px;background:var(--cream);border:1px solid var(--tan);
+  font-family:var(--font-sans);font-size:11px;font-weight:500;
+  letter-spacing:.08em;color:var(--charcoal-soft);white-space:nowrap;
+}
+.about-creds{list-style:none;margin:20px 0 32px;display:flex;flex-direction:column;gap:10px}
+.about-creds li{
+  display:flex;align-items:baseline;gap:12px;
+  font-family:var(--font-sans);font-size:13px;color:var(--charcoal-soft);line-height:1.5;
+}
+.about-creds li::before{content:'●';color:var(--gold);font-size:9px;flex-shrink:0;margin-top:3px}
+.about-btns{display:flex;gap:16px;flex-wrap:wrap}
+
+/* ═══════════════════════════════════════════
+   7. BOOKS
+═══════════════════════════════════════════ */
+#books{background:var(--white);padding:100px 60px}
+.books-header{text-align:center;margin-bottom:60px}
+.books-title{font-family:var(--font-serif);font-size:clamp(30px,4vw,48px);font-weight:600;color:var(--charcoal);line-height:1.15;margin-bottom:14px}
+.books-title em{color:var(--gold);font-style:italic}
+.books-sub{font-family:var(--font-sans);font-size:14px;color:var(--brown-muted);max-width:520px;margin:0 auto;line-height:1.7}
+.books-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:64px}
+.book-card{
+  border:1px solid var(--tan-light);overflow:hidden;
+  transition:transform .28s,box-shadow .28s;
+}
+.book-card:hover{transform:translateY(-5px);box-shadow:0 16px 44px rgba(26,22,18,0.1)}
+.book-spine{
+  position:relative;padding:36px 28px 28px;
+  border-left:7px solid var(--gold);
+  border-top:4px solid var(--gold);
+  min-height:220px;
+  display:flex;flex-direction:column;justify-content:flex-end;
+}
+.book-spine-navy{background:#0D1F35}
+.book-spine-bronze{background:#2A1E08}
+.book-spine-green{background:#0D2A20}
+.book-free-badge{
+  position:absolute;top:16px;right:16px;
+  background:var(--gold);color:var(--charcoal);
+  font-family:var(--font-sans);font-size:9px;font-weight:800;
+  letter-spacing:.2em;text-transform:uppercase;padding:4px 10px;
+}
+.book-spine-divider{width:40px;height:1px;background:rgba(212,175,55,.5);margin:14px 0}
+.book-title-serif{font-family:var(--font-serif);font-size:22px;font-weight:600;color:var(--cream);line-height:1.25;margin-bottom:8px}
+.book-author-italic{font-family:var(--font-serif);font-size:13px;font-style:italic;color:rgba(212,175,55,.65)}
+.book-body{padding:28px;background:var(--white)}
+.book-desc{font-family:var(--font-sans);font-size:13.5px;line-height:1.75;color:var(--charcoal-soft);margin-bottom:24px}
+.book-btns{display:flex;flex-direction:column;gap:10px}
+.btn-read{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:12px;background:var(--charcoal);color:var(--cream);
+  font-family:var(--font-sans);font-size:11.5px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;border:none;
+  cursor:pointer;transition:background .2s;
+}
+.btn-read:hover{background:var(--charcoal-mid)}
+.btn-copy{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:11px;background:transparent;color:var(--charcoal);
+  font-family:var(--font-sans);font-size:11.5px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;border:1.5px solid var(--tan-light);
+  cursor:pointer;transition:all .2s;
+}
+.btn-copy:hover{border-color:var(--charcoal)}
+.book-quote{
+  max-width:620px;margin:0 auto;
+  background:var(--cream-ivory);border:1px solid var(--tan-light);
+  border-left:4px solid var(--gold);
+  padding:40px 48px;text-align:center;
+}
+.book-quote blockquote{
+  font-family:var(--font-serif);font-size:20px;font-style:italic;
+  color:var(--charcoal);line-height:1.7;margin-bottom:16px;
+}
+.book-quote cite{
+  font-family:var(--font-sans);font-size:11.5px;font-weight:600;
+  letter-spacing:.1em;color:var(--brown-muted);text-transform:uppercase;
+}
+
+/* ═══════════════════════════════════════════
+   8. SOLD
+═══════════════════════════════════════════ */
+#sold{background:var(--cream-ivory);padding:100px 60px}
+.sold-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:52px}
+.cards-grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.sold-card{
+  background:var(--white);border:1px solid var(--tan-light);
+  overflow:hidden;transition:transform .25s,box-shadow .25s;
+}
+.sold-card:hover{transform:translateY(-5px);box-shadow:0 12px 36px rgba(26,22,18,0.1)}
+.sold-img{position:relative;height:185px;background:var(--cream-deep);overflow:hidden}
+.sold-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.sold-card:hover .sold-img img{transform:scale(1.04)}
+.sold-img-placeholder{
+  width:100%;height:185px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:6px;
+}
+.sold-info{padding:20px}
+.sold-price{font-family:var(--font-serif);font-size:24px;font-weight:600;color:var(--charcoal);margin-bottom:4px}
+.sold-addr{font-family:var(--font-sans);font-size:11.5px;color:var(--brown-muted);margin-bottom:12px;line-height:1.5}
+.sold-meta{
+  display:flex;flex-wrap:wrap;gap:8px;
+  font-family:var(--font-sans);font-size:11px;color:var(--brown-muted);
+  border-top:1px solid var(--tan-light);padding-top:12px;
+}
+.sold-caption{
+  text-align:center;font-family:var(--font-sans);font-size:12px;
+  color:var(--brown-muted);margin-top:28px;font-style:italic;
+  letter-spacing:.04em;
+}
+
+/* ═══════════════════════════════════════════
+   9. TESTIMONIALS
+═══════════════════════════════════════════ */
+#reviews{background:var(--cream-warm);padding:100px 60px}
+.reviews-header{text-align:center;margin-bottom:56px}
+.reviews-link{
+  display:inline-block;font-family:var(--font-sans);font-size:12px;
+  font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--gold);border-bottom:1px solid var(--gold);
+  padding-bottom:2px;margin-top:16px;transition:opacity .2s;
+}
+.reviews-link:hover{opacity:.7}
+.cards-grid-3x2{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.review-card{
+  background:var(--white);border:1px solid var(--tan-light);
+  padding:32px;position:relative;
+  transition:transform .25s,box-shadow .25s;
+}
+.review-card:hover{transform:translateY(-4px);box-shadow:0 10px 32px rgba(26,22,18,0.08)}
+.review-quote-mark{
+  font-family:var(--font-serif);font-size:100px;line-height:.6;
+  color:rgba(212,175,55,0.12);position:absolute;top:20px;left:24px;
+  pointer-events:none;select:none;
+}
+.review-stars{color:var(--gold);font-size:14px;letter-spacing:2px;margin-bottom:14px}
+.review-text{
+  font-family:var(--font-serif);font-size:16px;font-style:italic;
+  line-height:1.72;color:var(--charcoal);margin-bottom:20px;
+  position:relative;z-index:1;
+}
+.review-divider{height:1px;background:var(--tan-light);margin-bottom:18px}
+.review-footer{display:flex;align-items:center;gap:14px}
+.review-avatar{
+  width:42px;height:42px;border-radius:50%;
+  background:rgba(212,175,55,0.12);border:2px solid var(--gold);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  font-family:var(--font-serif);font-size:15px;font-weight:700;color:var(--gold);
+}
+.review-name{font-family:var(--font-sans);font-size:12.5px;font-weight:600;color:var(--charcoal)}
+.review-detail{font-family:var(--font-sans);font-size:11px;color:var(--brown-muted);margin-top:2px}
+.review-verified{
+  font-family:var(--font-sans);font-size:10px;font-weight:600;
+  letter-spacing:.1em;color:var(--gold);margin-top:4px;
+}
+
+/* ═══════════════════════════════════════════
+   10. WHY CHOOSE
+═══════════════════════════════════════════ */
+#why{background:var(--white);padding:100px 60px}
+.why-title{font-family:var(--font-serif);font-size:clamp(32px,4vw,50px);font-weight:600;color:var(--charcoal);text-align:center;margin-bottom:56px}
+.why-title em{color:var(--gold);font-style:italic}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.why-card{
+  padding:40px 28px;border:1px solid var(--tan-light);
+  transition:transform .25s,box-shadow .25s,border-color .25s;
+  position:relative;overflow:hidden;
+}
+.why-card::before{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:3px;
+  background:var(--gold);transform:scaleX(0);transform-origin:left;
+  transition:transform .3s;
+}
+.why-card:hover::before{transform:scaleX(1)}
+.why-card:hover{transform:translateY(-5px);box-shadow:0 16px 44px rgba(26,22,18,0.08);border-color:var(--tan)}
+.why-icon{font-size:38px;margin-bottom:20px;display:block}
+.why-card-title{font-family:var(--font-serif);font-size:22px;font-weight:600;color:var(--charcoal);margin-bottom:12px}
+.why-card-text{font-family:var(--font-sans);font-size:13.5px;line-height:1.75;color:var(--charcoal-soft)}
+
+/* ═══════════════════════════════════════════
+   11. CONTACT
+═══════════════════════════════════════════ */
+#contact{background:var(--charcoal);padding:100px 60px}
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:start}
+.contact-eyebrow{color:var(--gold);margin-bottom:10px}
+.contact-divider{display:block;width:48px;height:2px;background:var(--gold);margin-bottom:24px}
+.contact-title{
+  font-family:var(--font-serif);font-size:clamp(28px,3vw,40px);
+  font-weight:600;color:var(--cream);line-height:1.2;margin-bottom:20px;
+}
+.contact-body{font-family:var(--font-sans);font-size:14px;line-height:1.8;color:rgba(253,252,248,.65);margin-bottom:36px}
+.contact-items{display:flex;flex-direction:column;gap:16px;margin-bottom:36px}
+.contact-item{display:flex;align-items:flex-start;gap:14px}
+.contact-icon{font-size:18px;flex-shrink:0;margin-top:1px}
+.contact-item-text{font-family:var(--font-sans);font-size:14px;color:var(--cream-deep);line-height:1.5}
+.contact-item-text a{color:var(--cream-deep);transition:color .2s}
+.contact-item-text a:hover{color:var(--gold)}
+.social-row{display:flex;gap:12px;margin-bottom:40px;flex-wrap:wrap}
+.social-btn{
+  padding:9px 16px;border:1px solid rgba(253,252,248,.2);
+  font-family:var(--font-sans);font-size:11px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;color:rgba(253,252,248,.6);
+  background:transparent;cursor:pointer;transition:all .2s;
+}
+.social-btn:hover{border-color:var(--gold);color:var(--gold)}
+.contact-logos{display:flex;align-items:center;gap:0;padding-top:20px;border-top:1px solid rgba(253,252,248,.12)}
+.contact-logo-grant{height:48px;display:flex;align-items:center;padding-right:16px}
+.contact-logo-grant .grant-logo-img{height:44px;width:auto;filter:brightness(0) invert(1) opacity(.8)}
+.contact-logo-divider{width:1px;height:32px;background:rgba(253,252,248,.2)}
+.contact-logo-sb{height:40px;display:flex;align-items:center;padding-left:16px}
+.contact-logo-sb .sb-logo-img{height:30px;width:auto;filter:brightness(0) invert(1) opacity(.7)}
+
+/* Contact Form */
+.contact-form{
+  background:rgba(255,255,255,.05);border:1px solid rgba(253,252,248,.1);
+  padding:44px;
+}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{display:flex;flex-direction:column;margin-bottom:16px}
+.form-group label{
+  font-family:var(--font-sans);font-size:10.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;
+  color:rgba(212,175,55,.8);margin-bottom:8px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea{
+  padding:14px 16px;background:rgba(255,255,255,.06);
+  border:1px solid rgba(253,252,248,.15);
+  font-family:var(--font-sans);font-size:13.5px;color:var(--cream);
+  outline:none;transition:border-color .2s;
+  -webkit-appearance:none;appearance:none;
+}
+.form-group select{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23D4AF37' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:calc(100% - 14px) center;
+  cursor:pointer;
+}
+.form-group select option{background:var(--charcoal)}
+.form-group input::placeholder,
+.form-group textarea::placeholder{color:rgba(253,252,248,.3)}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{border-color:var(--gold)}
+.form-group textarea{resize:vertical;min-height:110px}
+.form-submit{
+  width:100%;padding:16px;
+  background:var(--gold);color:var(--charcoal);
+  font-family:var(--font-sans);font-size:12.5px;font-weight:700;
+  letter-spacing:.16em;text-transform:uppercase;border:none;
+  cursor:pointer;transition:background .2s;margin-top:8px;
+}
+.form-submit:hover{background:#b8962f}
+
+/* ═══════════════════════════════════════════
+   12. NEWSLETTER
+═══════════════════════════════════════════ */
+#newsletter{background:var(--gold);padding:48px 60px}
+.newsletter-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:40px;max-width:1100px;margin:0 auto;
+}
+.newsletter-text .nl-title{
+  font-family:var(--font-serif);font-size:clamp(24px,3vw,34px);
+  font-weight:600;color:var(--charcoal);line-height:1.2;margin-bottom:8px;
+}
+.newsletter-text .nl-sub{font-family:var(--font-sans);font-size:13.5px;color:rgba(26,22,18,.7)}
+.newsletter-form{display:flex;gap:0;min-width:360px}
+.newsletter-form input{
+  flex:1;padding:15px 20px;
+  border:none;outline:none;
+  font-family:var(--font-sans);font-size:13.5px;color:var(--charcoal);
+  background:rgba(255,255,255,.9);
+}
+.newsletter-form input::placeholder{color:rgba(26,22,18,.5)}
+.newsletter-form button{
+  padding:15px 28px;background:var(--charcoal);color:var(--cream);
+  font-family:var(--font-sans);font-size:11.5px;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;border:none;
+  cursor:pointer;white-space:nowrap;transition:background .2s;
+}
+.newsletter-form button:hover{background:var(--charcoal-mid)}
+
+/* ═══════════════════════════════════════════
+   13. FOOTER
+═══════════════════════════════════════════ */
+#footer{background:var(--near-black);padding:72px 60px 0}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;padding-bottom:56px;border-bottom:1px solid rgba(255,255,255,.07)}
+.footer-brand{display:flex;flex-direction:column;gap:0}
+.footer-logo-stack{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.footer-logo-grant .grant-logo-img{height:48px;width:auto;filter:brightness(0) invert(1) opacity(.75)}
+.footer-logo-sb .sb-logo-img{height:32px;width:auto;filter:brightness(0) invert(1) opacity(.6)}
+.footer-tagline{font-family:var(--font-sans);font-size:12.5px;color:rgba(255,255,255,.4);line-height:1.7;margin-bottom:24px}
+.footer-social{display:flex;gap:10px;flex-wrap:wrap}
+.footer-social a{
+  display:flex;align-items:center;justify-content:center;
+  width:34px;height:34px;
+  border:1px solid rgba(255,255,255,.15);
+  font-size:13px;color:rgba(255,255,255,.45);
+  transition:all .2s;text-decoration:none;
+}
+.footer-social a:hover{border-color:var(--gold);color:var(--gold)}
+.footer-col-title{
+  font-family:var(--font-sans);font-size:10.5px;font-weight:700;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+  margin-bottom:20px;
+}
+.footer-links{display:flex;flex-direction:column;gap:12px}
+.footer-link{
+  font-family:var(--font-sans);font-size:13px;
+  color:rgba(255,255,255,.45);transition:color .2s;
+}
+.footer-link:hover{color:rgba(255,255,255,.8)}
+.footer-book-link{font-family:var(--font-sans);font-size:12.5px;color:rgba(255,255,255,.45);transition:color .2s;line-height:1.5}
+.footer-book-link:hover{color:rgba(255,255,255,.8)}
+.footer-bottom{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:24px 0;flex-wrap:wrap;gap:16px;
+}
+.footer-copy{font-family:var(--font-sans);font-size:11.5px;color:rgba(255,255,255,.3);line-height:1.6}
+.footer-legal{display:flex;gap:20px}
+.footer-legal a{font-family:var(--font-sans);font-size:11px;color:rgba(255,255,255,.3);transition:color .2s}
+.footer-legal a:hover{color:rgba(255,255,255,.6)}
+
+/* ═══════════════════════════════════════════
+   LOGO SVGs INLINE
+═══════════════════════════════════════════ */
+/* Represented as text-based logos since no image files */
+.grant-logo-text{
+  font-family:var(--font-serif);font-weight:700;
+  line-height:1.2;letter-spacing:.03em;
+}
+.grant-logo-text .grant-g{font-size:1.5em;color:var(--gold)}
+.grant-logo-text .grant-name{font-size:0.85em;display:block}
+.grant-logo-text .grant-sub{font-size:0.55em;display:block;letter-spacing:.12em;text-transform:uppercase;color:var(--brown-muted);margin-top:1px}
+
+.sb-mono{
+  display:flex;align-items:center;justify-content:center;
+  width:36px;height:36px;
+  background:var(--charcoal);border:1.5px solid var(--gold);
+  font-family:var(--font-serif);font-size:16px;font-weight:700;color:var(--gold);
+  letter-spacing:.05em;flex-shrink:0;
+}
+.sb-mono-lg{width:56px;height:56px;font-size:22px}
+.sb-mono-sm{width:30px;height:30px;font-size:13px}
+.sb-mono-white{background:var(--white);border-color:var(--gold)}
+
+/* Contact form logos as text */
+.contact-brand-text{
+  font-family:var(--font-serif);font-size:13px;font-weight:700;
+  color:rgba(253,252,248,.7);letter-spacing:.04em;
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════ */
+@media(max-width:1100px){
+  .about-grid{grid-template-columns:340px 1fr;gap:56px}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:900px){
+  :root{--nav-h:68px}
+  #navbar{padding:0 24px}
+  .nav-center,.nav-phone,.nav-cta{display:none}
+  .nav-hamburger{display:flex}
+  #hero{grid-template-columns:1fr;min-height:auto}
+  .hero-left{padding:56px 28px 48px}
+  .hero-right{min-height:420px}
+  .hero-stats{grid-template-columns:repeat(2,1fr);gap:16px 0}
+  .about-grid{grid-template-columns:1fr}
+  .about-photo-wrap{max-width:320px;margin:0 auto}
+  .books-grid,.cards-grid-3,.cards-grid-3x2{grid-template-columns:1fr;gap:20px}
+  .cards-grid-4{grid-template-columns:repeat(2,1fr);gap:16px}
+  .why-grid{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr;gap:48px}
+  .footer-grid{grid-template-columns:1fr}
+  .newsletter-inner{flex-direction:column;text-align:center}
+  .newsletter-form{min-width:0;width:100%}
+  #search{padding:40px 24px}
+  .search-bar{grid-template-columns:1fr;border:1.5px solid var(--tan-light)}
+  .search-bar input,.search-bar select{border-right:none;border-bottom:1px solid var(--tan-light)}
+  .search-btn{padding:16px;text-align:center}
+  #listings,#about,#books,#sold,#reviews,#why,#contact,#newsletter{padding:72px 24px}
+  .section-header{flex-direction:column;gap:16px}
+  .sold-header{flex-direction:column;gap:16px}
+  .form-row{grid-template-columns:1fr}
+  .contact-form{padding:28px 20px}
+  #footer{padding:56px 24px 0}
+  .footer-bottom{flex-direction:column;text-align:center}
+  .footer-legal{justify-content:center}
+}
+@media(max-width:600px){
+  .cards-grid-4{grid-template-columns:1fr}
+  .hero-ctas{flex-direction:column}
+  .about-btns{flex-direction:column}
+  .hero-stats{grid-template-columns:1fr 1fr}
+}
+
+/* ═══════════════════════════════════════════
+   SCROLL REVEAL
+═══════════════════════════════════════════ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<!-- ─────────────────────────────────────────
+  1. NAVIGATION
+───────────────────────────────────────── -->
+<nav id="navbar">
+  <div class="nav-left">
+    <a href="#hero" class="nav-logo-grant" aria-label="Grant and Associates">
+      <div class="grant-logo-text" style="color:var(--charcoal)">
+        <span class="grant-g" style="color:var(--gold);font-size:22px">G</span><span class="grant-name" style="font-size:13px;font-weight:700">Grant &amp; Associates</span><span class="grant-sub" style="font-size:9px;letter-spacing:.12em;color:var(--brown-muted)">Real Estate Inc.</span>
+      </div>
+    </a>
+    <div class="nav-divider"></div>
+    <div class="nav-sb">
+      <div class="sb-mono"><span>SB</span></div>
+    </div>
+  </div>
+  <nav class="nav-center" aria-label="Main navigation">
+    <a href="#listings" class="nav-link">Listings</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#books" class="nav-link">Books</a>
+    <a href="#sold" class="nav-link">Sold</a>
+    <a href="#reviews" class="nav-link">Reviews</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <div class="nav-right">
+    <a href="tel:3056008169" class="nav-phone">(305) 600-8169</a>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <button class="nav-hamburger" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#listings" onclick="closeMenu()">Listings</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#books" onclick="closeMenu()">Books</a>
+  <a href="#sold" onclick="closeMenu()">Sold</a>
+  <a href="#reviews" onclick="closeMenu()">Reviews</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <a href="tel:3056008169" style="color:var(--gold)">(305) 600-8169</a>
+</div>
+
+<!-- ─────────────────────────────────────────
+  2. HERO
+───────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">THE SWEETIE BATISTA GROUP · DAVIE, FL · GRANT &amp; ASSOCIATES</p>
+    <h1 class="hero-headline">Building<br><em>Generational Wealth</em><br>Through Real Estate</h1>
+    <p class="hero-sub">Sweetie Batista is an entrepreneur, REALTOR®, and published author helping South Florida families own real estate and create lasting wealth — from first-time buyers to seasoned investors.</p>
+    <div class="hero-ctas">
+      <a href="https://sef.mlsmatrix.com/Matrix/Default.aspx?" target="_blank" rel="noopener" class="btn-gold">View Properties</a>
+      <a href="#books" class="btn-outline">Read My Books</a>
+    </div>
+    <div class="hero-divider"></div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="stat-number">29</div>
+        <div class="stat-label">Total Sales</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-number">5.0 ★</div>
+        <div class="stat-label">Zillow Rating</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-number">3</div>
+        <div class="stat-label">Books Published</div>
+      </div>
+      <div class="hero-stat">
+        <div class="stat-number">18+</div>
+        <div class="stat-label">Cities Served</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <!-- Replace the div below with: <img src="sweetie-headshot.jpg" alt="Sweetie Batista, REALTOR®" class="hero-photo"> -->
+    <div class="hero-photo-placeholder" style="background:linear-gradient(150deg,#C9A87C 0%,#7A5230 50%,#4A3020 100%);min-height:680px">
+      <div style="text-align:center;color:rgba(255,255,255,.55)">
+        <div style="font-size:72px;margin-bottom:12px">👩🏽‍💼</div>
+        <div style="font-family:var(--font-serif);font-size:22px;font-weight:600;color:rgba(255,255,255,.8);letter-spacing:.04em;margin-bottom:4px">Sweetie Batista</div>
+        <div style="font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(212,175,55,.8)">REALTOR® &amp; Author</div>
+        <div style="font-family:var(--font-sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:16px">Replace with professional headshot</div>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span class="badge-stars">★★★★★</span>
+      <span class="badge-text">5.0 · 12 Verified Zillow Reviews</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  3. TICKER
+───────────────────────────────────────── -->
+<div id="ticker" role="marquee" aria-label="Service areas">
+  <div class="ticker-inner" id="tickerInner">
+    <div class="ticker-set">
+      <span class="ticker-city">Fort Lauderdale</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Hollywood</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Miramar</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Davie</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Tamarac</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Coconut Creek</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Coral Springs</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Pembroke Pines</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Boca Raton</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Weston</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Miami Beach</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Doral</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Plantation</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Sunrise</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Parkland</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">West Palm Beach</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Pinecrest</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Southwest Ranches</span><span class="ticker-dot">✦</span>
+    </div>
+    <div class="ticker-set" aria-hidden="true">
+      <span class="ticker-city">Fort Lauderdale</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Hollywood</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Miramar</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Davie</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Tamarac</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Coconut Creek</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Coral Springs</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Pembroke Pines</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Boca Raton</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Weston</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Miami Beach</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Doral</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Plantation</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Sunrise</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Parkland</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">West Palm Beach</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Pinecrest</span><span class="ticker-dot">✦</span>
+      <span class="ticker-city">Southwest Ranches</span><span class="ticker-dot">✦</span>
+    </div>
+  </div>
+</div>
+
+<!-- ─────────────────────────────────────────
+  4. PROPERTY SEARCH
+───────────────────────────────────────── -->
+<section id="search">
+  <div class="search-label eyebrow">Search South Florida Properties</div>
+  <div class="search-bar">
+    <input type="text" placeholder="City, ZIP, neighborhood, or address…" aria-label="Search location">
+    <select aria-label="Property type">
+      <option value="">All Types</option>
+      <option>Single Family</option>
+      <option>Condo</option>
+      <option>Multi-Family</option>
+      <option>Investment</option>
+      <option>Commercial</option>
+      <option>Land</option>
+    </select>
+    <select aria-label="Price range">
+      <option value="">Any Price</option>
+      <option>Under $200K</option>
+      <option>$200K–$400K</option>
+      <option>$400K–$700K</option>
+      <option>$700K–$1M</option>
+      <option>$1M+</option>
+    </select>
+    <select aria-label="Bedrooms">
+      <option value="">Any Beds</option>
+      <option>1+</option>
+      <option>2+</option>
+      <option>3+</option>
+      <option>4+</option>
+    </select>
+    <button class="search-btn" onclick="window.open('https://sef.mlsmatrix.com/Matrix/Default.aspx?','_blank')">Search</button>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  5. FEATURED LISTINGS
+───────────────────────────────────────── -->
+<section id="listings">
+  <div class="section-header reveal">
+    <div class="section-header-left">
+      <p class="eyebrow">Active Listings</p>
+      <span class="gold-line"></span>
+      <h2 class="section-title">Featured <em>Properties</em></h2>
+    </div>
+    <a href="https://sef.mlsmatrix.com/Matrix/Default.aspx?" target="_blank" rel="noopener" class="mls-link">Search MLS Listings →</a>
+  </div>
+
+  <div class="cards-grid-3 reveal">
+    <!-- Card 1 -->
+    <div class="prop-card">
+      <div class="prop-img">
+        <div class="prop-img-placeholder" style="background:linear-gradient(135deg,#C8E6C9 0%,#4CAF50 100%)">
+          <span class="ph-icon-sm">🏠</span>
+          <span style="font-family:var(--font-sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.7)">Add Property Photo</span>
+        </div>
+        <span class="prop-badge badge-sale">For Sale</span>
+      </div>
+      <div class="prop-info">
+        <div class="prop-price">$539,000</div>
+        <div class="prop-addr">Fort Lauderdale, FL 33315</div>
+        <div class="prop-specs">
+          <span class="prop-spec"><span>4</span> bd</span>
+          <span class="prop-spec"><span>3</span> ba</span>
+          <span class="prop-spec"><span>2,100</span> sqft</span>
+        </div>
+        <a href="mailto:Sweetie.Batista@gmail.com" class="tour-btn">Schedule a Tour</a>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="prop-card">
+      <div class="prop-img">
+        <div class="prop-img-placeholder" style="background:linear-gradient(135deg,#FFF8E1 0%,#D4AF37 100%)">
+          <span class="ph-icon-sm">🏡</span>
+          <span style="font-family:var(--font-sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(26,22,18,.6)">Add Property Photo</span>
+        </div>
+        <span class="prop-badge badge-new">New Listing</span>
+      </div>
+      <div class="prop-info">
+        <div class="prop-price">$389,000</div>
+        <div class="prop-addr">Davie, FL 33314</div>
+        <div class="prop-specs">
+          <span class="prop-spec"><span>3</span> bd</span>
+          <span class="prop-spec"><span>2</span> ba</span>
+          <span class="prop-spec"><span>1,650</span> sqft</span>
+        </div>
+        <a href="mailto:Sweetie.Batista@gmail.com" class="tour-btn">Schedule a Tour</a>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="prop-card">
+      <div class="prop-img">
+        <div class="prop-img-placeholder" style="background:linear-gradient(135deg,#CFD8DC 0%,#455A64 100%)">
+          <span class="ph-icon-sm">🏢</span>
+          <span style="font-family:var(--font-sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.7)">Add Property Photo</span>
+        </div>
+        <span class="prop-badge badge-inv">Investment</span>
+      </div>
+      <div class="prop-info">
+        <div class="prop-price">$749,000</div>
+        <div class="prop-addr">Miramar, FL 33027</div>
+        <div class="prop-specs">
+          <span class="prop-spec"><span>6</span> bd</span>
+          <span class="prop-spec"><span>4</span> ba</span>
+          <span class="prop-spec"><span>3,200</span> sqft</span>
+        </div>
+        <a href="mailto:Sweetie.Batista@gmail.com" class="tour-btn">Schedule a Tour</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="listings-cta reveal">
+    <a href="https://sef.mlsmatrix.com/Matrix/Default.aspx?" target="_blank" rel="noopener" class="btn-gold" style="font-size:13px;padding:15px 36px">🔍 Search All MLS Listings</a>
+    <p class="listings-caption">Photos shown are representative South Florida properties from Sweetie's portfolio. Search live MLS or contact Sweetie for latest inventory.</p>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  6. ABOUT
+───────────────────────────────────────── -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <!-- Replace div below with <img src="sweetie-about.jpg" alt="Sweetie Batista" class="about-portrait"> -->
+      <div class="about-portrait-placeholder">
+        <div style="text-align:center;padding:48px 20px">
+          <div style="font-size:56px;margin-bottom:12px">👩🏽‍💼</div>
+          <div style="font-family:var(--font-serif);font-size:18px;font-weight:600;color:rgba(255,255,255,.85)">Sweetie Batista</div>
+          <div style="font-family:var(--font-sans);font-size:9px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(212,175,55,.8);margin-top:6px">Replace with headshot</div>
+        </div>
+      </div>
+      <div class="about-gold-line"></div>
+      <div class="about-sb-badge sb-mono sb-mono-white" style="position:absolute;top:-14px;left:-14px;z-index:2;background:var(--white);border:1.5px solid var(--gold)">SB</div>
+      <div class="about-rating-badge">
+        5.0 / ★
+        <small>Zillow Rating</small>
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <p class="eyebrow">Meet Your Agent</p>
+      <span class="gold-line"></span>
+      <h2 class="about-headline">Sweetie Batista,<br>REALTOR® &amp; Author</h2>
+      <p class="about-bio">Sweetie Batista is an entrepreneur and REALTOR® at the helm of The Sweetie Batista Group — a full-service real estate and travel concierge based in Davie, FL. As a real estate investor herself with a passion for added-value real estate, Sweetie is dedicated to educating her clients on maximizing profits when buying, selling, or investing.</p>
+      <p class="about-bio">Beyond her real estate practice, Sweetie is a published author of three books on real estate strategy — freely available to anyone who wants to build their knowledge before making one of life's biggest financial decisions.</p>
+      <div class="about-tags">
+        <span class="about-tag">Buyer's Agent</span>
+        <span class="about-tag">Listing Agent</span>
+        <span class="about-tag">Foreclosures</span>
+        <span class="about-tag">Investment Properties</span>
+        <span class="about-tag">Commercial</span>
+        <span class="about-tag">Luxury Homes</span>
+        <span class="about-tag">First-Time Buyers</span>
+        <span class="about-tag">Generational Wealth</span>
+      </div>
+      <ul class="about-creds">
+        <li>REALTOR® · Grant &amp; Associates Real Estate Inc · Davie, FL 33314</li>
+        <li>29 Total Closed Sales · $21K–$1.5M Price Range</li>
+        <li>Serving 18+ South Florida Cities &amp; Communities</li>
+        <li>Published Author — 3 Real Estate Strategy Books</li>
+        <li>5.0 Star Rating · 12 Verified Zillow Reviews</li>
+      </ul>
+      <div class="about-btns">
+        <a href="mailto:Sweetie.Batista@gmail.com" class="btn-gold">Work With Sweetie</a>
+        <a href="#books" class="btn-outline">Read Her Books</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  7. BOOKS
+───────────────────────────────────────── -->
+<section id="books">
+  <div class="books-header reveal">
+    <p class="eyebrow">Sweetie Batista — Published Author</p>
+    <span class="gold-line center"></span>
+    <h2 class="books-title">Real Estate Wisdom<br>You Can <em>Read Today</em></h2>
+    <p class="books-sub">Three books freely available to read online — or request a personal copy when you book your consultation.</p>
+  </div>
+
+  <div class="books-grid reveal">
+    <!-- Book 1 -->
+    <div class="book-card">
+      <div class="book-spine book-spine-navy">
+        <span class="book-free-badge">FREE READ</span>
+        <h3 class="book-title-serif">The Complete Guide to Buying a Home</h3>
+        <div class="book-spine-divider"></div>
+        <p class="book-author-italic">Sweetie Batista</p>
+      </div>
+      <div class="book-body">
+        <p class="book-desc">Everything you need before you buy — budgeting, pre-approval, making offers, and closing. Sweetie's buyer's guide walks you through every step with clarity and confidence.</p>
+        <div class="book-btns">
+          <a href="https://sweetiebatista.book.live/read-buyer-book" target="_blank" rel="noopener" class="btn-read">📖 Read Free Online</a>
+          <a href="#contact" class="btn-copy">Get a Copy</a>
+        </div>
+      </div>
+    </div>
+    <!-- Book 2 -->
+    <div class="book-card">
+      <div class="book-spine book-spine-bronze">
+        <span class="book-free-badge">FREE READ</span>
+        <h3 class="book-title-serif">How to Sell Homes Fast for Top Dollar</h3>
+        <div class="book-spine-divider"></div>
+        <p class="book-author-italic">Sweetie Batista</p>
+      </div>
+      <div class="book-body">
+        <p class="book-desc">Sellers — discover the strategies that get homes sold fast and for maximum value. Sweetie reveals her proven approach to pricing, staging, marketing, and negotiating for the best outcome.</p>
+        <div class="book-btns">
+          <a href="https://sweetiebatista.book.live/read-biz-card-book" target="_blank" rel="noopener" class="btn-read">📖 Read Free Online</a>
+          <a href="#contact" class="btn-copy">Get a Copy</a>
+        </div>
+      </div>
+    </div>
+    <!-- Book 3 -->
+    <div class="book-card">
+      <div class="book-spine book-spine-green">
+        <span class="book-free-badge">FREE READ</span>
+        <h3 class="book-title-serif">Navigating Your First Home Purchase</h3>
+        <div class="book-spine-divider"></div>
+        <p class="book-author-italic">Sweetie Batista</p>
+      </div>
+      <div class="book-body">
+        <p class="book-desc">Crafted for first-time buyers — demystifies credit, down payments, inspections, and closing costs with warmth and precision. Sweetie's most personal and practical book.</p>
+        <div class="book-btns">
+          <a href="https://sweetiebatista.book.live/read-first-time-buyer-book" target="_blank" rel="noopener" class="btn-read">📖 Read Free Online</a>
+          <a href="#contact" class="btn-copy">Get a Copy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="book-quote reveal">
+    <blockquote>"Knowledge is the most powerful tool in real estate. These books are my gift to you — no strings attached."</blockquote>
+    <cite>— Sweetie Batista, REALTOR® &amp; Author</cite>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  8. SOLD
+───────────────────────────────────────── -->
+<section id="sold">
+  <div class="sold-header reveal">
+    <div>
+      <p class="eyebrow">Proven Track Record</p>
+      <span class="gold-line"></span>
+      <h2 class="section-title">Recently <em>Sold</em></h2>
+    </div>
+    <a href="https://www.zillow.com/profile/Sweetie%20Batista" target="_blank" rel="noopener" class="mls-link">All 29 Sales on Zillow →</a>
+  </div>
+
+  <div class="cards-grid-4 reveal">
+    <!-- Sold 1 -->
+    <div class="sold-card">
+      <div class="sold-img">
+        <div class="sold-img-placeholder" style="background:linear-gradient(135deg,#B2DFDB 0%,#00695C 100%)">
+          <span style="font-size:28px">🏠</span>
+          <span style="font-family:var(--font-sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.65)">Add Photo</span>
+        </div>
+        <span class="badge-sold-stamp">SOLD</span>
+        <span class="badge-role buyer">Buyer</span>
+      </div>
+      <div class="sold-info">
+        <div class="sold-price">$667,000</div>
+        <div class="sold-addr">900 Mandarin Isle #1-2<br>Fort Lauderdale, FL 33315</div>
+        <div class="sold-meta">
+          <span>6 bd · 4 ba · 2,764 sqft</span>
+          <span>Closed Feb 4, 2026</span>
+        </div>
+      </div>
+    </div>
+    <!-- Sold 2 -->
+    <div class="sold-card">
+      <div class="sold-img">
+        <div class="sold-img-placeholder" style="background:linear-gradient(135deg,#BBDEFB 0%,#1565C0 100%)">
+          <span style="font-size:28px">🏡</span>
+          <span style="font-family:var(--font-sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.65)">Add Photo</span>
+        </div>
+        <span class="badge-sold-stamp">SOLD</span>
+        <span class="badge-role buyer">Buyer</span>
+      </div>
+      <div class="sold-info">
+        <div class="sold-price">$480,000</div>
+        <div class="sold-addr">3720 Piedmont St<br>Hollywood, FL 33021</div>
+        <div class="sold-meta">
+          <span>3 bd · 3 ba · 1,479 sqft</span>
+          <span>Closed Nov 6, 2025</span>
+        </div>
+      </div>
+    </div>
+    <!-- Sold 3 -->
+    <div class="sold-card">
+      <div class="sold-img">
+        <div class="sold-img-placeholder" style="background:linear-gradient(135deg,#F3E5F5 0%,#6A1B9A 100%)">
+          <span style="font-size:28px">🏘️</span>
+          <span style="font-family:var(--font-sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.65)">Add Photo</span>
+        </div>
+        <span class="badge-sold-stamp">SOLD</span>
+        <span class="badge-role seller">Seller</span>
+      </div>
+      <div class="sold-info">
+        <div class="sold-price">$779,000</div>
+        <div class="sold-addr">2036 SW 159th Ave<br>Miramar, FL 33027</div>
+        <div class="sold-meta">
+          <span>4 bd · 3 ba · 2,143 sqft</span>
+          <span>Closed Oct 29, 2025</span>
+        </div>
+      </div>
+    </div>
+    <!-- Sold 4 -->
+    <div class="sold-card">
+      <div class="sold-img">
+        <div class="sold-img-placeholder" style="background:linear-gradient(135deg,#FFF9C4 0%,#E65100 100%)">
+          <span style="font-size:28px">🏙️</span>
+          <span style="font-family:var(--font-sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.65)">Add Photo</span>
+        </div>
+        <span class="badge-sold-stamp">SOLD</span>
+        <span class="badge-role buyer">Buyer</span>
+      </div>
+      <div class="sold-info">
+        <div class="sold-price">$250,000</div>
+        <div class="sold-addr">468 NE 206th Ln APT 206<br>Miami, FL 33179</div>
+        <div class="sold-meta">
+          <span>2 bd · 2 ba · 829 sqft</span>
+          <span>Closed Jul 11, 2025</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="sold-caption reveal">29 total transactions · $21K–$1.5M price range</p>
+</section>
+
+<!-- ─────────────────────────────────────────
+  9. TESTIMONIALS
+───────────────────────────────────────── -->
+<section id="reviews">
+  <div class="reviews-header reveal">
+    <p class="eyebrow">12 Verified Zillow Reviews · 5.0 ★</p>
+    <span class="gold-line center"></span>
+    <h2 class="section-title">What Clients <em>Say</em></h2>
+    <a href="https://www.zillow.com/profile/Sweetie%20Batista#reviews" target="_blank" rel="noopener" class="reviews-link">All Reviews on Zillow →</a>
+  </div>
+
+  <div class="cards-grid-3x2 reveal">
+    <!-- Review 1 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">I cannot recommend Sweetie Batista and her team highly enough! From start to finish, Sweetie went above and beyond to ensure I not only got the best possible deal but that every detail was handled with care.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">D</div>
+        <div>
+          <div class="review-name">drewsmikle11</div>
+          <div class="review-detail">Bought a home · Nov 2024</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+    <!-- Review 2 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Sweetie certainly lives up to her name! As a first-time homebuyer, I am beyond grateful that God connected me to the perfect realtor. When I say perfect, I mean just that — she walked me through everything.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">M</div>
+        <div>
+          <div class="review-name">mellin duh me</div>
+          <div class="review-detail">Bought Townhouse · Pompano Beach, FL · 2023</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+    <!-- Review 3 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">My partner and I were impressed by Sweetie's negotiation skills. Her team managed to lower the asking price significantly, saving us thousands. Their market knowledge is exceptional.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">M</div>
+        <div>
+          <div class="review-name">mascarenhashall</div>
+          <div class="review-detail">Bought Condo · Miami Beach, FL · 2023</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+    <!-- Review 4 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Working with Sweetie Batista exceeded all our expectations. She worked patiently with us and did a walk-through of our home several months before we planned to list — going above and beyond.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">Z</div>
+        <div>
+          <div class="review-name">Verified Buyer</div>
+          <div class="review-detail">Sold a home · 2023</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+    <!-- Review 5 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Sweetie is an amazing realtor! Words cannot even begin to describe how patient she was with my family. Her passion for real estate shines through in everything she does.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">A</div>
+        <div>
+          <div class="review-name">annrikafarrington</div>
+          <div class="review-detail">Bought Single Family · Tamarac, FL · 2023</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+    <!-- Review 6 -->
+    <div class="review-card">
+      <div class="review-quote-mark">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">I had the pleasure of working with Sweetie from the Sweetie Batista Group — from initial meeting to final closing, the experience was absolutely outstanding.</p>
+      <div class="review-divider"></div>
+      <div class="review-footer">
+        <div class="review-avatar">O</div>
+        <div>
+          <div class="review-name">omega5624</div>
+          <div class="review-detail">Sold Single Family · Coconut Creek, FL · 2024</div>
+          <div class="review-verified">✦ Verified Zillow Review</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  10. WHY CHOOSE SWEETIE
+───────────────────────────────────────── -->
+<section id="why">
+  <h2 class="why-title reveal">The Sweetie Batista <em>Difference</em></h2>
+  <div class="why-grid reveal">
+    <div class="why-card">
+      <span class="why-icon">🏆</span>
+      <h3 class="why-card-title">5.0 Star Agent</h3>
+      <p class="why-card-text">12 verified 5-star Zillow reviews, built on patience, results, and genuine care for every client's journey.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">📚</span>
+      <h3 class="why-card-title">Published Author</h3>
+      <p class="why-card-text">Three free real estate books — knowledge Sweetie freely shares with every client before they ever sign.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">💼</span>
+      <h3 class="why-card-title">Full-Service Group</h3>
+      <p class="why-card-text">Real estate plus travel concierge — The Sweetie Batista Group delivers a truly complete experience.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🌱</span>
+      <h3 class="why-card-title">Generational Wealth</h3>
+      <p class="why-card-text">A real estate investor herself, Sweetie guides clients on building lasting family wealth through strategic property ownership.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  11. CONTACT
+───────────────────────────────────────── -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="reveal">
+      <p class="eyebrow contact-eyebrow">Get In Touch</p>
+      <span class="contact-divider"></span>
+      <h2 class="contact-title">Ready to Start Your Real Estate Journey?</h2>
+      <p class="contact-body">Whether buying, selling, or investing — reach out for a free, no-pressure consultation. Honest guidance from someone who genuinely cares about your family's future.</p>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div class="contact-item-text"><a href="tel:3056008169">(305) 600-8169</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">✉</span>
+          <div class="contact-item-text"><a href="mailto:Sweetie.Batista@gmail.com">Sweetie.Batista@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div class="contact-item-text">6099 Stirling Rd. Suite 103, Davie, FL 33314</div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🏢</span>
+          <div class="contact-item-text">Grant &amp; Associates Real Estate Inc</div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🌍</span>
+          <div class="contact-item-text">Serving 18+ South Florida Communities</div>
+        </div>
+      </div>
+
+      <div class="social-row">
+        <a href="https://www.facebook.com/RealEstateSweetie/" target="_blank" rel="noopener" class="social-btn">Facebook</a>
+        <a href="https://www.instagram.com/realestate.sweetie/" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+        <a href="http://www.linkedin.com/in/sweetie-batista-6288a8235" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
+        <a href="https://www.zillow.com/profile/Sweetie%20Batista" target="_blank" rel="noopener" class="social-btn">Zillow</a>
+      </div>
+
+      <div class="contact-logos">
+        <div class="contact-logo-grant" style="padding-right:16px">
+          <div style="font-family:var(--font-serif);font-size:13px;font-weight:700;color:rgba(253,252,248,.7);line-height:1.25">
+            <span style="font-size:18px;color:var(--gold)">G</span> Grant &amp; Associates<br>
+            <span style="font-size:9px;letter-spacing:.1em;font-family:var(--font-sans);color:rgba(253,252,248,.4)">REAL ESTATE INC.</span>
+          </div>
+        </div>
+        <div class="contact-logo-divider"></div>
+        <div class="contact-logo-sb" style="padding-left:16px">
+          <div class="sb-mono" style="border-color:rgba(212,175,55,.5);background:rgba(212,175,55,.08);color:var(--gold)">SB</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First name" required>
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(305) 000-0000">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="interest">I'm interested in…</label>
+          <select id="interest" name="interest">
+            <option value="">Select an option</option>
+            <option>Buying a Home</option>
+            <option>Selling a Home</option>
+            <option>Investment Property</option>
+            <option>First-Time Home Buying</option>
+            <option>Free Book – Buyer's Guide</option>
+            <option>Free Book – Sell Homes Fast</option>
+            <option>Free Book – First-Time Buyer</option>
+            <option>General Question</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="budget">Budget Range</label>
+          <select id="budget" name="budget">
+            <option value="">Select a range</option>
+            <option>Under $200K</option>
+            <option>$200K–$400K</option>
+            <option>$400K–$700K</option>
+            <option>$700K–$1M</option>
+            <option>$1M+</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell Sweetie what you're looking for…"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message to Sweetie →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  12. NEWSLETTER
+───────────────────────────────────────── -->
+<section id="newsletter">
+  <div class="newsletter-inner">
+    <div class="newsletter-text">
+      <h3 class="nl-title">Stay Ahead of the South Florida Market</h3>
+      <p class="nl-sub">New listings, market insights and tips — from Sweetie.</p>
+    </div>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address…" aria-label="Email for newsletter">
+      <button type="button" onclick="subscribeNewsletter(this)">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────
+  13. FOOTER
+───────────────────────────────────────── -->
+<footer id="footer">
+  <div class="footer-grid">
+    <!-- Col 1: Brand -->
+    <div class="footer-brand">
+      <div class="footer-logo-stack">
+        <div class="footer-logo-grant">
+          <div style="font-family:var(--font-serif);font-size:14px;font-weight:700;color:rgba(255,255,255,.7);line-height:1.25">
+            <span style="font-size:20px;color:var(--gold)">G</span> Grant &amp; Associates<br>
+            <span style="font-size:9.5px;letter-spacing:.1em;font-family:var(--font-sans);color:rgba(255,255,255,.4)">REAL ESTATE INC.</span>
+          </div>
+        </div>
+        <div class="footer-logo-sb">
+          <div style="display:flex;align-items:center;gap:10px">
+            <div class="sb-mono sb-mono-sm" style="border-color:rgba(212,175,55,.5);background:rgba(212,175,55,.08)">SB</div>
+            <span style="font-family:var(--font-serif);font-size:13px;color:rgba(255,255,255,.5)">The Sweetie Batista Group</span>
+          </div>
+        </div>
+      </div>
+      <p class="footer-tagline">Black and gold luxury with heart — South Florida's trusted real estate expert. Building generational wealth, one family at a time.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/RealEstateSweetie/" target="_blank" rel="noopener" title="Facebook">f</a>
+        <a href="https://www.instagram.com/realestate.sweetie/" target="_blank" rel="noopener" title="Instagram">ig</a>
+        <a href="http://www.linkedin.com/in/sweetie-batista-6288a8235" target="_blank" rel="noopener" title="LinkedIn">in</a>
+        <a href="https://www.zillow.com/profile/Sweetie%20Batista" target="_blank" rel="noopener" title="Zillow">Z</a>
+      </div>
+    </div>
+
+    <!-- Col 2: Navigate -->
+    <div>
+      <div class="footer-col-title">Navigate</div>
+      <div class="footer-links">
+        <a href="#listings" class="footer-link">Listings</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#books" class="footer-link">Books</a>
+        <a href="#sold" class="footer-link">Sold</a>
+        <a href="#reviews" class="footer-link">Reviews</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </div>
+    </div>
+
+    <!-- Col 3: Books -->
+    <div>
+      <div class="footer-col-title">Books</div>
+      <div class="footer-links">
+        <a href="https://sweetiebatista.book.live/read-buyer-book" target="_blank" rel="noopener" class="footer-book-link">The Complete Guide to Buying a Home</a>
+        <a href="https://sweetiebatista.book.live/read-biz-card-book" target="_blank" rel="noopener" class="footer-book-link">How to Sell Homes Fast for Top Dollar</a>
+        <a href="https://sweetiebatista.book.live/read-first-time-buyer-book" target="_blank" rel="noopener" class="footer-book-link">Navigating Your First Home Purchase</a>
+        <a href="#contact" class="footer-link" style="color:var(--gold);margin-top:4px">Request Free Copy →</a>
+      </div>
+    </div>
+
+    <!-- Col 4: Service Areas -->
+    <div>
+      <div class="footer-col-title">Service Areas</div>
+      <div class="footer-links">
+        <span class="footer-link" style="cursor:default">Fort Lauderdale</span>
+        <span class="footer-link" style="cursor:default">Hollywood</span>
+        <span class="footer-link" style="cursor:default">Miramar</span>
+        <span class="footer-link" style="cursor:default">Davie</span>
+        <span class="footer-link" style="cursor:default">Tamarac</span>
+        <span class="footer-link" style="cursor:default">Miami Beach</span>
+        <span class="footer-link" style="cursor:default">Boca Raton</span>
+        <span class="footer-link" style="cursor:default">Coral Springs</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 Sweetie Batista · The Sweetie Batista Group · Grant &amp; Associates Real Estate Inc · Equal Housing Opportunity 🏠</p>
+    <div class="footer-legal">
+      <a href="#contact">Privacy</a>
+      <a href="#contact">Terms</a>
+      <a href="#contact">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ─────────────────────────────────────────
+  JAVASCRIPT
+───────────────────────────────────────── -->
+<script>
+/* ── Mobile menu ── */
+function toggleMenu(){
+  const m=document.getElementById('mobileMenu');
+  m.classList.toggle('open');
+}
+function closeMenu(){
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+/* ── Scroll reveal ── */
+const reveals=document.querySelectorAll('.reveal');
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+    }
+  });
+},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+reveals.forEach(el=>observer.observe(el));
+
+/* ── Active nav link ── */
+const sections=['hero','listings','about','books','sold','reviews','why','contact'];
+const navLinks=document.querySelectorAll('.nav-link');
+function updateNav(){
+  let current='';
+  sections.forEach(id=>{
+    const sec=document.getElementById(id);
+    if(sec&&window.scrollY>=sec.offsetTop-120) current=id;
+  });
+  navLinks.forEach(link=>{
+    link.classList.remove('active');
+    if(link.getAttribute('href')==='#'+current) link.classList.add('active');
+  });
+}
+window.addEventListener('scroll',updateNav,{passive:true});
+
+/* ── Navbar shadow on scroll ── */
+const navbar=document.getElementById('navbar');
+window.addEventListener('scroll',()=>{
+  if(window.scrollY>10){
+    navbar.style.boxShadow='0 2px 24px rgba(26,22,18,0.07)';
+  } else {
+    navbar.style.boxShadow='none';
+  }
+},{passive:true});
+
+/* ── Contact form submit ── */
+function submitForm(e){
+  e.preventDefault();
+  const btn=e.target.querySelector('.form-submit');
+  const fname=document.getElementById('fname').value;
+  const lname=document.getElementById('lname').value;
+  const email=document.getElementById('email').value;
+  const phone=document.getElementById('phone').value;
+  const interest=document.getElementById('interest').value;
+  const budget=document.getElementById('budget').value;
+  const message=document.getElementById('message').value;
+  const subject=encodeURIComponent('New Inquiry from '+fname+' '+lname);
+  const body=encodeURIComponent(
+    'Name: '+fname+' '+lname+'\n'+
+    'Email: '+email+'\n'+
+    'Phone: '+phone+'\n'+
+    'Interest: '+interest+'\n'+
+    'Budget: '+budget+'\n\n'+
+    'Message:\n'+message
+  );
+  window.location.href='mailto:Sweetie.Batista@gmail.com?subject='+subject+'&body='+body;
+  btn.textContent='✓ Message Sent!';
+  btn.style.background='#2D6A4F';
+  setTimeout(()=>{
+    btn.textContent='Send Message to Sweetie →';
+    btn.style.background='';
+    e.target.reset();
+  },4000);
+}
+
+/* ── Newsletter ── */
+function subscribeNewsletter(btn){
+  const input=btn.previousElementSibling;
+  if(!input.value||!input.value.includes('@')){
+    input.style.borderBottom='2px solid red';
+    setTimeout(()=>input.style.borderBottom='',2000);
+    return;
+  }
+  btn.textContent='✓ Subscribed!';
+  btn.style.background='#2D6A4F';
+  input.value='';
+  setTimeout(()=>{btn.textContent='Subscribe';btn.style.background='';},4000);
+}
+
+/* ── Smooth ticker fallback ── */
+// CSS animation handles this, JS is fallback for reduced-motion
+if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+  const ticker=document.getElementById('tickerInner');
+  if(ticker) ticker.style.animation='none';
+}
+</script>
+
+</body>
+</html>
